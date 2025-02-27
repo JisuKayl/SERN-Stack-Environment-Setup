@@ -10,8 +10,8 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "mysql",
-  database: "sernstack_db",
+  password: "your_password",
+  database: "name_db",
 });
 
 db.connect((err) => {
